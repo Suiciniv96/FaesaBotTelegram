@@ -1,0 +1,7 @@
+/node_modules
+/build
+.env
+/images
+dev.db
+dev.db-journal
+prisma/migrations
