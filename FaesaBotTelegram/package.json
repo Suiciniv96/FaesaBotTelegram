@@ -1,0 +1,30 @@
+{
+  "name": "Faesa-Bot-Telegram",
+  "version": "1.0.0",
+  "description": "Projeto de Telegram Bot para disciplina de Desenvolvimento Web 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc && node ./build/bot.js",
+    "dev": "node ./build/bot.js"
+  },
+  "author": "Vinícius Dias",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.14",
+    "prisma": "^5.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusdias91/telegram-bot-faculdade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viniciusdias91/telegram-bot-faculdade/issues"
+  },
+  "homepage": "https://github.com/viniciusdias91/telegram-bot-faculdade"
+}
